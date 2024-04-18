@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Audit360MultiTenantWebBaseLineAutomation Suite" parallel="false" >
+
+	<listeners>
+		<listener class-name="generic.ListenerTest" />
+	</listeners>
+	<test name="Test">
+		<classes>
+	
+			 <!-- Part 1 Report --> 
+	 <!--	 <class name="generic.BaseTest" /> -->
+	 <!-- <class name="generic.ListenerTest"/>-->  
+		<!--     <class name="scripts.LoginPageFunctionalityTest" />
+		     <class name="scripts.RoleManagementPageFunctionalityTest" />
+		   <class name="scripts.UserManagementPageFunctionalityTest" /> 
+	 		<class name="scripts.ReminderPageFunctionalityTest" />
+			<class name="scripts.EmailPreferencePageFunctionalityTest" /> 
+			<class name="scripts.AuditLogsFunctionalityTest" />                
+	     	<class name="scripts.ReportsPageFunctionalityTest" /> 
+		  <class name="scripts.ProcessesAndPoliciesPageFunctionalityTest" />-->  
+           <!-- Part 1 Report --> 
+          
+			<!-- Part 2 Report -->
+		     <!-- <class name="scripts.AnnexurePageFunctionalityTest" /> 
+			<class name="scripts.GroupPageFunctionalityTest" />
+			<class name="scripts.CheckPointPageFunctionalityTest" />
+	        <class name="scripts.ConfigureAuditPageFunctionalityTest" /> -->
+            <!-- Part 2 Report -->
+           	
+			<!-- Part 3 Report -->
+	   <!-- <class name="scripts.SurveyQuestionsPageFunctionalityTest" />
+		    <class name="scripts.SurveyResponseRequiredNotSelectedFunctionalityTest" /> 
+			<class name="scripts.SurveyResponseRequiredSelectedFunctionalityTest" />
+	     	<class name="scripts.SurveyResponsePageFunctionalityTest" />-->
+			<!-- Part 3 Report -->
+				
+			<!-- Part 4 Report -->
+       <!--     <class name="scripts.ReAuditWithSubAuditsFunctionalityTest" /> 
+            <class name="scripts.ExceptionalGroupsFunctionalityTest" /> 
+		   <class name="scripts.ProvisionalSubmissionAndBulkFinalizationFunctionalityTest" />  
+		   <class name="scripts.DoyouWantToShowAllCheckpointsToAuditeeDuringSignoffGroupsFunctionalityTest" /> 
+		    <class name="scripts.DoyouWantToShowAllCheckpointsToAuditeeDuringSignoffSubaudistFunctionalityTest" />-->  
+			<!-- Part 4 Report -->
+
+			<!-- Part 5 Report--> 
+	    <!--<class name="scripts.MutipleAuditorWithGroupsLevelFunctionalityTest" /> 
+			<class name="scripts.MultipleAuditorWithSubAuditLevelFunctionalityTest" />
+			<class name="scripts.IssueSignificanceGroupsFunctionalityTest" />
+			<class name="scripts.IssueSignificanceSubAuditsFunctionalityTest" />
+			<class name="scripts.MultiLevelReviewFunctionalityTestForAnnexureLevel" />
+            <class name="scripts.MutiLevelReviewFunctionalityWithGroupLevelTest" />  -->
+            <!-- Part 5 Report --> 
+             
+            <!-- Part 6 Report -->
+       <!--     <class name="scripts.ReAssignedRequestsAcceptFunctionalityTest" />
+		        <class name="scripts.ReassignedRequestRejectFunctionalityTest" />
+		        <class name="scripts.RejectScheduleAcceptFunctionalityTest" /> 
+		         <class name="scripts.RejectScheduleRejectFunctionalityTest" />
+		        <class name="scripts.EditSheduleApproveFunctionalityTest" />
+		        <class name="scripts.EditSheduleRejectFunctionalityTest" />--> 
+			<!-- Part 6 Report -->
+
+            <!-- Part 7 Report -->
+       <!--     <class name="scripts.AddingCPWithGroupsThroughExpressModeFunctionalityTest" />
+        <class name="scripts.AddingCPWithGroupsThroughNoramlModeFunctionaityTest" />
+		     <class name="scripts.AddingCPWithSubAuditsLeveleAlllocationThroughExpressAndNormalModeFunctionalityTest" />-->
+           <!-- Part 7 Report -->
+                        
+            <!-- Part 8 Report -->
+	   <!--    <class name="scripts.SpotResolutionByAuditorExecutionAndRSLScenario7Test" />
+			<class name="scripts.SpotResolutionByHeadOfAuditAndFXSLScenario1Test" />  
+			  <class name="scripts.SpotResolutionByReviewerAndPOPSLScenario2Test" /> 
+		    <class name="scripts.DirectResolutionByHeadOfAuditRSLScenario3Test1" /> 
+		    <class name="scripts.DirectResolutionByReviewerFixedScoringLogicScenarios2Test2" />-->
+			 <!-- Part 8 Report -->
+			
+			<!-- Part 8.1 Report--> 
+	       <!--    <class name="scripts.SpotResolutionByAuditorExecutionRSLSubAuditsScenario3Test" />-->  
+		 	<class name="scripts.DirectResolutionByReviewerAndRDSLSubAuditsScenario1Test" /> 
+			 <!-- Part 8.1 Report -->
+              
+            <!-- Part 9 Report -->
+    <!--   <class name="scripts.RedistributionScoreLogicScenario1AndProvissionalSubmissionFunctionalityTest" />
+           <class name="scripts.RedistributionScoringLogicScenario2AndInformedAuditTest" />
+           <class name="scripts.RedistributionScoringLogicScenario3Test" /> 
+           <class name="scripts.RedistributionScoreLogicScenario4AndProvissionalSubmissionGroupLevelFunctionalityTest" />
+           <class name="scripts.RedistributionScoringLogicScenario5AndReorderCheckPointsTest" />
+            <class name="scripts.RedistributionScoringLogicScenario6And1379Test" />
+            <class name="scripts.RedistributionScoringLogicScenario7AndSurpriseAuditTest" />  
+            <class name="scripts.FixedScoreLogicScenario1Test" /> -->
+            <!-- <class name="scripts.FixedScoringLogicScenarios2Test" />
+            <class name="scripts.PercentageOfPositiveScoringLogicSenario1AndPAOTest" />
+            <class name="scripts.PercentageOfPositiveScoringLogicScenario2AndHandleIssueTest" />
+            <class name="scripts.PercentageOfPositiveScoringLogicScenario3Test" />
+            <class name="scripts.AllThreeCombinationOfScoringLogicFunctionalityTest" /> --> 
+             <!-- Part 9 Report -->
+
+	         <!-- Part 9.1 Report -->
+	         <!--  <class name="scripts.RedistributionScoringLogicSubAuditsScenario1Test" />
+		     <class name="scripts.RedistributionScoringLogicSubAuditsScenario2Test" />
+		     <class name="scripts.RedistributionScoringLogicSubAuditsScenario3Test" /> 
+		     <class name="scripts.FixedScoringLogicSubAuditsScenario1Test" />
+	         <class name="scripts.PercentageOfPositiveScoringLogicSubAuditsScenario1And1379Test" />  -->
+	         <!-- Part 9.1 Report -->
+            
+            <!-- Part 10 Report -->
+		<!--     <class name="scripts.AuditeeUserMyAuditsPageSearchFunctionalityTest" />
+			<class name="scripts.AuditeeReviewerMyAuditsPageSearchFunctionalityTest" /> 
+			<class name="scripts.AuditScheduleSearchFunctionalityTest" />
+			<class name="scripts.ReassignSchedulePageSearchFunctionalityTest" /> 
+			<class name="scripts.RejectSchedulePageSearchFunctionalityTest" />
+			<class name="scripts.ApproveSchedulePageSearchFunctionalityTest" />
+		    <class name="scripts.SuperAdminIssuePageSearchFunctionalityTest" />
+		   <class name="scripts.AuditeeUserIssuePageSearchFunctionalityTest" />
+		    <class name="scripts.AuditeeRespondentIssuePageSearchFunctionalityTest" />
+		    <class name="scripts.AuditeeReviewerIssuePageSearchFunctionalityTest" /> 
+		   <class name= "scripts.AuditorMyIssuePageSearchFunctionality" />
+		    <class name="scripts.SwitchRolePageFunctionalityTest" /> -->
+			<!-- Part 10 Report -->
+			
+			<!-- Auditee app Test Data Creation Don't Run -->
+			 <!-- <class name="scripts.RedistributionScoringLogicScenario5Test" /> 
+			 <class name="scripts.PercentageOfPositiveScoringLogicSubAuditsScenario1Test" />
+			 <class name="scripts.Scenario1RespondentAndAuditeeReviewerWorkflowHasBeenEliminatedButAuditeeSignoffIsEnabled" />-->
+			<!-- Auditee app Test Data Creation Don't Run -->
+			
+			
+			<!-- Part 11 Report Don't Run -->
+		    <!-- <class name="scripts.Scenario1RespondentAndAuditeeReviewerWorkflowHasBeenEliminatedButAuditeeSignoffIsEnabled" />
+			<class name="scripts.Scenario2RespondentAndAuditeeReviewerWorkflowHasBeenEnabledButAuditeeSignoffIsEliminated" /> 
+			<class name="scripts.Scenario3RespondentWorkflowIsEnabledAuditeeReviewerWorkflowHasBeenEliminated" /> 
+		    <class name="scripts.Scenario4RespondentWorkflowIsEliminatedAuditeeReviewerWorkflowHasBeenEnabled" />
+		    <class name="scripts.LeadAuditorWithGroupLevelFunctionalityTest" />
+			<class name="scripts.LeadAuditorWithCheckpointLevelAllocationFunctionalityTest" />
+		    <class name="scripts.LeadAudiorWithSubAuditAlloctionFunctionalityTest" />
+			<class name="scripts.InputDataTypesRequiredFieldsFunctionalityTest" />
+			<class name="scripts.SuperAdminProfilePageFunctionalityTest" />
+			<class name="scripts.AuditorProfilePageFunctionalityTest" />
+			<class name="scripts.AuditeeUserProfilePageFunctionalityTest" />
+			<class name="scripts.AuditeeRespondentProfilePageFunctionalityTest" />
+			<class name="scripts.AuditeeReviewerProfilePageFinctionalityTest" />
+            <class name="scripts.SuperAdminUpdatePasswordFunctionalityTest" />
+			<class name="scripts.AuditorUpdatePasswordFunctionalityTest" />
+			<class name="scripts.AuditeeUserUpdatePasswordFunctionalityTest" />
+			<class name="scripts.AuditeeRespondentUpdatePasswordFunctionalityTest" />
+			<class name="scripts.AuditeeReviewerUpdatePasswordFunctionalityTest" /> 
+			<class name="scripts.AnnexurePageSearchFunctonalityTest" /> 
+			<class name="scripts.RemovingNAAndPartailComplianceNormalModeFunctionalityTest" />  
+			<class name="scripts.RemovingNAAndPartailComplianceExpressModeFunctionalityTest" />
+			-->
+			<!-- Part 11 Report Don't Run -->
+			
+			<!-- Test data Creation Don't Run -->
+			<!-- <class name="scripts.ClusterUploadFunctionalityTest" />
+			<class name="scripts.AuditeeTemplateFunctionalityTest" />
+			<class name="scripts.AuditorTemplateFunctionalityTest" />
+			<class name="scripts.AuditeeUserTemplateFunctionalityTest" />
+			<class name="scripts.AuditeeReviewerTemplateFunctionalityTest" />
+			<class name="scripts.AuditeeRespondentTemplateFunctionalityTest" /> -->
+			<!-- Test data Creation Don't Run -->
+			
+			<!-- #SM Updated Scripts As per  -->
+		<!--	<class name="scripts.AuditSchedulePageFunctionalityTest" />-->
+	<!--	<class name="scripts.AllocateIssuesPageFunctionalityTest" />-->
+			
+			
+		</classes>
+	</test>
+</suite> 
